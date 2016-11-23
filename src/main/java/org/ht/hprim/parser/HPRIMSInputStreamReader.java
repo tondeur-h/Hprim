@@ -1,4 +1,4 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 /**
  * Classe avec des facilitateurs de lecture pour HPRIMSTokenSource
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 1022 $
  */
 public class HPRIMSInputStreamReader extends InputStreamReader {
@@ -41,7 +41,7 @@ public class HPRIMSInputStreamReader extends InputStreamReader {
 	 *  <li>STD_CHAR : caractère avant \r (carriage return)</li>
 	 *  <li>POST_CR : caractère après \r (carriage return)</li>
 	 * </ul>
-	 * @author delabre
+	 * @author tondeur-h
 	 *
 	 */
 	public enum StateReader {

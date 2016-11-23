@@ -1,4 +1,4 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
 import org.antlr.runtime.IntStream;
 import org.antlr.runtime.RecognitionException;
@@ -7,7 +7,7 @@ import org.antlr.runtime.Token;
 
 /**
  * Erreur lors des non reconnaissances de regex 
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 972 $
  */
 public class MatchRegexTokenException extends RecognitionException {

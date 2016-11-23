@@ -1,4 +1,4 @@
-package aider.org.hprim.parser.examples;
+package org.ht.hprim.parser.examples;
 
 import java.io.*;
 import java.sql.SQLException;
@@ -10,7 +10,7 @@ import org.antlr.runtime.*;
 
 /**
  * Classe d'exemple
- * @author delabre
+ * @author tondeur-h
  * @version $Id: MainExample.java 1024 2012-08-06 19:47:04Z jp $
  */
 public class MainExample {

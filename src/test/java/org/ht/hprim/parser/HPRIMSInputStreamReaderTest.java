@@ -1,8 +1,9 @@
 /**
  * 
  */
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
+import org.ht.hprim.parser.HPRIMSInputStreamReader;
 import static org.junit.Assert.*;
 
 import java.io.ByteArrayInputStream;
@@ -10,7 +11,7 @@ import java.io.IOException;
 import org.junit.Test;
 
 /**
- * @author delabre
+ * @author tondeur-h
  *
  */
 public class HPRIMSInputStreamReaderTest {

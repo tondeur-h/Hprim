@@ -1,5 +1,6 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
+import org.ht.hprim.parser.HPRIMSDelimiters;
 import static org.junit.Assert.*;
 
 import java.io.IOException;

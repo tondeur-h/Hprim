@@ -1,15 +1,15 @@
-package aider.org.hprim.parser.examples;
+package org.ht.hprim.parser.examples;
 
 import java.io.PrintStream;
 
-import aider.org.hprim.parser.HPRIMSCollecteur;
+import org.ht.hprim.parser.HPRIMSCollecteur;
 
 /**
  * Implémentation de l'interface HPRIMSCollecteur permettant de sortir sur une sortie
  * de type {@link PrintStream} les éléments du fichier HPRIM sous la forme d'un xml
  * (mais sans l'échappement des caractères xml).
  * Réalise une classe d'exemple d'implémentation de HPRIMSCollecteur
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 972 $
  */
 public class DefaultCollecteur extends HPRIMSCollecteur {

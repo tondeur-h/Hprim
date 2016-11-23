@@ -1,4 +1,4 @@
-package aider.org.hprim.parser.examples;
+package org.ht.hprim.parser.examples;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,15 +8,15 @@ import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.RecognitionException;
 import org.antlr.runtime.TokenStream;
 
-import aider.org.hprim.parser.HPRIMSCollecteur;
-import aider.org.hprim.parser.HPRIMSInputStreamReader;
-import aider.org.hprim.parser.HPRIMSTokenSource;
-import aider.org.hprim.parser.antlr.HPRIMSParser;
+import org.ht.hprim.parser.HPRIMSCollecteur;
+import org.ht.hprim.parser.HPRIMSInputStreamReader;
+import org.ht.hprim.parser.HPRIMSTokenSource;
+import org.ht.hprim.parser.antlr.HPRIMSParser;
 
 /**
  * Classe permettant d'abstraire les taches à effectuer auprès du tokenizer, parser, ...
  * et permettant d'avoir une interface (API) simple
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 1028 $
  */
 public class DefaultParser {

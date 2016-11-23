@@ -1,11 +1,11 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
 import org.antlr.runtime.RecognitionException;
 
 /**
  * Redéfinit les erreurs de reconnaissance pour le tokenizer
  * {@link HPRIMSTokenSource}
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 1029 $
  */
 public class HPRIMSRecognitionException extends RecognitionException {

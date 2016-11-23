@@ -1,4 +1,4 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 /**
  * Cellte classe garde en mémoire les séparateurs d'un fichier HPRIM 
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 1027 $
  */
 public class HPRIMSDelimiters {

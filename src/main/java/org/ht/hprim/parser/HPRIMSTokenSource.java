@@ -1,4 +1,4 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
 import java.io.*;
 import java.util.LinkedList;
@@ -9,8 +9,8 @@ import java.util.regex.Pattern;
 
 import org.antlr.runtime.*;
 
-import aider.org.hprim.parser.antlr.HPRIMSLexer;
-import aider.org.hprim.parser.antlr.HPRIMSParser;
+import org.ht.hprim.parser.antlr.HPRIMSLexer;
+import org.ht.hprim.parser.antlr.HPRIMSParser;
 
 /**
  * Limitations de ce tokenizer pour HPRIM :
@@ -19,7 +19,7 @@ import aider.org.hprim.parser.antlr.HPRIMSParser;
  *   . suppression des caractères non inscriptibles après le CR
  *   . Tous les caractères peuvent ètre utilisés comme délimiteurs,
  *     même A, P, L, O, B et R
- * @author delabre/aider
+ * @author tondeur-h/aider
  * @version $Revision: 1028 $
  */
 public class HPRIMSTokenSource implements TokenSource {

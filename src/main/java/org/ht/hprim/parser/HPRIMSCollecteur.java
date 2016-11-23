@@ -1,4 +1,4 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
 import java.util.Stack;
 
@@ -17,7 +17,7 @@ import java.util.Stack;
  *  <li>"ligne" : début de ligne</li>
  *  <li>"champ" : début de champ</li>
  * </ul>
- * @author delabre
+ * @author tondeur-h
  * @version $Revision: 1029 $
  */
 public abstract class HPRIMSCollecteur {

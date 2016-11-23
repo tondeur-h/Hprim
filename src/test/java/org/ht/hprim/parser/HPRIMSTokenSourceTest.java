@@ -1,5 +1,7 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
+import org.ht.hprim.parser.HPRIMSTokenSource;
+import org.ht.hprim.parser.HPRIMSInputStreamReader;
 import static org.junit.Assert.*;
 
 import java.io.ByteArrayInputStream;
@@ -7,7 +9,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import aider.org.hprim.parser.antlr.HPRIMSParser;
+import org.ht.hprim.parser.antlr.HPRIMSParser;
 
 public class HPRIMSTokenSourceTest {
 

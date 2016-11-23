@@ -1,5 +1,7 @@
-package aider.org.hprim.parser;
+package org.ht.hprim.parser;
 
+import org.ht.hprim.parser.HPRIMSTokenSource;
+import org.ht.hprim.parser.HPRIMSInputStreamReader;
 import static org.junit.Assert.*;
 
 import java.io.ByteArrayInputStream;
@@ -12,8 +14,8 @@ import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.RecognitionException;
 import org.junit.Test;
 
-import aider.org.hprim.parser.antlr.HPRIMSParser;
-import aider.org.hprim.parser.examples.DefaultCollecteur;
+import org.ht.hprim.parser.antlr.HPRIMSParser;
+import org.ht.hprim.parser.examples.DefaultCollecteur;
 
 public class HPRIMSParserTest {
 
